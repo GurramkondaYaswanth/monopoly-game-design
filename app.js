@@ -54,7 +54,7 @@ function updateMoney1(p1) {
 function rollDice2() {
     let position = Math.floor(Math.random() * 6) + 1;
     console.log("player2 rolls ", position);
-    changePosition1(player2[1], position);
+    changePosition2(player2[1], position);
 }
 
 function changePosition2(old, currentPos) {

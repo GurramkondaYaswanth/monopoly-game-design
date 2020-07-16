@@ -33,10 +33,10 @@ class player {
     }
     updateMoney() {
         if (this.position < board.length) {
-            this.money -= board[this.position];
+            this.money -= board[this.position - 1];
         } else {
             this.position = this.position % 15;
-            this.money -= board[this.position]
+            this.money -= board[this.position - 1]
         }
         console.log(player1);
         console.log(player2);
